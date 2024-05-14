@@ -1,0 +1,111 @@
+:root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+  width: 350px;
+  border-radius: 15px;
+  background-color: rgba(21, 38, 63, 1);
+  padding: 24px 24px 32px;
+}
+
+.nftt {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Container h1 {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Container p {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 144.444% */
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  border-bottom: 1px solid rgba(46, 64, 90, 1);
+  padding-bottom: 24px;
+}
+
+.info-container div {
+  display: flex;
+  gap: 6.5px;
+  align-items: center;
+}
+
+.info-container div span {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.eth span {
+  color: var(--Cyan, #00fff8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Time {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Profile {
+  margin-top: 5x;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Profile img {
+  margin-top: 16px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 33px;
+  height: 33px;
+}
+
+.Profile p {
+  padding-top: 2px;
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Profile span {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
